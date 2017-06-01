@@ -1,14 +1,13 @@
 [package]
-name = "organize-by-mtime"
-version = "1.0.0"
 authors = ["Marek Baczynski <imbaczek@gmail.com>"]
 license = "MIT"
+name = "organize-by-mtime"
+version = "1.0.1"
 
 [dependencies]
-walkdir = "0.1"
-docopt = "0.6"
-rustc-serialize = "0.3"
-glob = "0.2"
+chrono = "0.3"
+docopt = "0.7"
 filetime = "0.1"
-chrono = "0.2"
-
+glob = "0.2"
+rustc-serialize = "0.3"
+walkdir = "1.0"
